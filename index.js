@@ -29,6 +29,8 @@ function footer(document) {
         <h3>Agtech Research</h3>
         <h5>Chungmu Bldg. 502B, Sejong University</h5>
         <h5>209 Neungdong, Gwangjin-gu, Seoul, Korea</h5>
+        <h5><a href="https://cafe.naver.com/pinkzsga7" target="_blank">
+            <mark>Communication Site</mark></a></h5>
         <h5>+82.2.3408.3879</h5>
     `;
 
