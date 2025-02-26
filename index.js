@@ -20,6 +20,7 @@ function header(document) {
             <li><a href="publications.html">Publications</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="communication.html">Communication</a></li>
         </ul>
     `;
   document.body.children[0].append(div, nav);
