@@ -6,8 +6,10 @@ function header(document) {
 
   div.style.cssText = "display: flex; flex-direction: row; gap: 10px;";
   div.innerHTML = `
+        <a href="../index.html">
         <img src="../resource/img/icon.png">
         <h2>Agtech Research</h2>
+        </a>
     `;
 
   nav.innerHTML = `
