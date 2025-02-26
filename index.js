@@ -7,7 +7,8 @@ function header(document) {
   div.style.cssText = "display: flex; flex-direction: row; gap: 10px;";
   div.innerHTML = `
         <a href="../index.html">
-        <img src="../resource/img/icon.png"></a>
+        <img src="../resource/img/icon.png">
+        </a>
         <h2>Agtech Research</h2>
         
     `;
