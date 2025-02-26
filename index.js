@@ -16,6 +16,7 @@ function header(document) {
             <li><a href="member.html">Member</a></li>
             <li><a href="publications.html">Publications</a></li>
             <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Research</a></li>
         </ul>
     `;
   document.body.children[0].append(div, nav);
