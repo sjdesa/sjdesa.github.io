@@ -45,6 +45,29 @@
 
       document.addEventListener("DOMContentLoaded", () => {
         header(document);
+        fetch(datafile)
+          .then((response) => response.json())
+          .then((json) => json.paper)
+          .then((data) => {
+            for (const obj of data) {
+              if (obj.content.length === 0) continue;
+
+              const section = document.createElement("section");
+              for (const paper of obj.content) {
+                const article = document.createElement("article");
+                article.innerHTML = `
+                                <a href="${paper.url}"><h4>${paper.title}</h4></a>
+                                <h5>${paper.author}</h5> 
+                                <p>${paper.cite}</p>
+                            `;
+                section.appendChild(article);
+              }
+
+              const h3 = document.createElement("h3");
+              h3.appendChild(document.createTextNode(obj.year));
+              document.body.children[1].append(h3, section);
+            }
+          });
         footer(document);
       });
     </script>
