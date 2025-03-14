@@ -4,7 +4,7 @@ function header(document) {
   const div = document.createElement("div");
   const nav = document.createElement("nav");
 
-  div.style.cssText = "display: flex; flex-direction: row; gap: 10px;";
+  div.style.cssText = "display: flex; flex-direction: row; gap: 1em;";
   div.innerHTML = `
         <a href="../index.html">
         <img src="../resource/img/icon.png">
