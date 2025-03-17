@@ -30,6 +30,7 @@ header {
     border-bottom: 2px solid gainsboro ;
     line-height: 1.5em;
     padding: 0 10px;
+    color: gainsboro;
 }
 
 header img {
